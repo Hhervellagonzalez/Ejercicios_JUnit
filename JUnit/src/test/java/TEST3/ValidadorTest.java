@@ -16,15 +16,13 @@ public class ValidadorTest {
 
     @Test
     public void testValidarTextoNulo() {
-        // Se espera que lance TextoInvalidoException
         TextoInvalidoException exception = assertThrows(TextoInvalidoException.class, () -> validador.validarTexto(null));
-        assertEquals("El texto no puede ser nulo ni vacío", exception.getMessage());
+        assertEquals("El texto no puede ser nulo", exception.getMessage());
     }
 
     @Test
     public void testValidarTextoVacio() {
-        // Se espera que lance TextoInvalidoException
         TextoInvalidoException exception = assertThrows(TextoInvalidoException.class, () -> validador.validarTexto(""));
-        assertEquals("El texto no puede ser nulo ni vacío", exception.getMessage());
+        assertEquals("El texto no puede ser vacío", exception.getMessage());
     }
 }

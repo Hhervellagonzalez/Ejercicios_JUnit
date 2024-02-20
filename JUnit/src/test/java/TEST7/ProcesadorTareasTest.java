@@ -14,7 +14,7 @@ public class ProcesadorTareasTest {
     @Test
     public void testEjecutarTareaLarga() throws InterruptedException {
         assertTimeout(Duration.ofMillis(1000), () -> {
-            procesador.ejecutarTareaLarga(1010); // Simulamos una tarea que debe tardar más de 1000 ms
+            procesador.ejecutarTareaLarga(1010);
         });
     }
 }

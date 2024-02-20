@@ -21,18 +21,13 @@ public class GestorDeConexionTest {
 
     @Test
     public void testOperacion1() {
-        // Realizar operación 1 en la base de datos
         System.out.println("Realizando operación 1 en la base de datos...");
-        assertTrue(true); // Asegúrate de que la operación 1 se realiza correctamente
+        assertTrue(true);
     }
 
     @Test
     public void testOperacion2() {
-        // Realizar operación 2 en la base de datos
         System.out.println("Realizando operación 2 en la base de datos...");
-        assertTrue(true); // Asegúrate de que la operación 2 se realiza correctamente
+        assertTrue(true);
     }
-
-    // Más pruebas...
-
 }

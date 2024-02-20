@@ -17,8 +17,7 @@ public class CalculadoraAvanzadaTest {
     @Test
     @Disabled("Implementación pendiente o en revisión")
     public void testLogaritmoNatural() {
-        // Se deshabilita esta prueba porque la implementación del logaritmo natural está pendiente o en revisión.
-        fail("Implementación pendiente o en revisión");
+          fail("Implementación pendiente o en revisión");
     }
 
     @Test
